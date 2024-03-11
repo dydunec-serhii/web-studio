@@ -1,0 +1,23 @@
+:root{
+    --publick-text: #2196F3;
+    --all-text: #212121;
+    --text-publick: #757575;
+}
+.webstudio{
+    color: var(--publick-text);
+}
+.active{
+    color: var(--publick-text);
+}
+.gmail{
+    color: var(--publick-text);
+}
+ul>li>a>{
+    color: var(--publick-text);
+}
+.text{
+    color: var(--all-text);
+}
+.publick-text{
+    color: var(--text-publick);
+}
