@@ -1,23 +1,48 @@
-:root{
+:root {
     --publick-text: #2196F3;
     --all-text: #212121;
     --text-publick: #757575;
+    --logo: #000000;
 }
-.webstudio{
+
+.webstudio {
+    color: var(--publick-text);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+}
+
+.studio {
+    color: var(--logo);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+}
+
+.active {
     color: var(--publick-text);
 }
-.active{
+
+.gmail:hover {
     color: var(--publick-text);
 }
-.gmail{
-    color: var(--publick-text);
-}
-ul>li>a>{
-    color: var(--publick-text);
-}
-.text{
+
+.text {
     color: var(--all-text);
 }
-.publick-text{
+
+.publick-text {
     color: var(--text-publick);
+}
+
+.order-button {
+    background-color: var(--publick-text);
+    color: white;
+    border: none;
+}
+
+.tell:hover {
+    color: var(--publick-text);
+}
+
+.header-link:hover {
+    color: var(--publick-text);
 }
