@@ -23,6 +23,10 @@
 
 .gmail:hover {
     color: var(--publick-text);
+    text-decoration: none;
+}
+.gmail{
+    text-decoration: none;
 }
 
 .text {
@@ -41,6 +45,10 @@
 
 .tell:hover {
     color: var(--publick-text);
+    text-decoration: none;
+}
+.tell{
+    text-decoration: none;
 }
 
 .header-link:hover {
@@ -91,4 +99,9 @@
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
+}
+.font{
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 31px;
 }
