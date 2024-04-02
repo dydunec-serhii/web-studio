@@ -25,7 +25,8 @@
     color: var(--publick-text);
     text-decoration: none;
 }
-.gmail{
+
+.gmail {
     text-decoration: none;
 }
 
@@ -47,7 +48,8 @@
     color: var(--publick-text);
     text-decoration: none;
 }
-.tell{
+
+.tell {
     text-decoration: none;
 }
 
@@ -100,8 +102,21 @@
     font-weight: 700;
     font-style: normal;
 }
-.font{
+
+.font {
     font-size: 26px;
     font-weight: 700;
     line-height: 31px;
+}
+
+.header-list {
+    list-style: none;
+}
+
+.main-list {
+    list-style: none;
+}
+
+.footer-list {
+    list-style: none;
 }
