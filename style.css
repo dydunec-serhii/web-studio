@@ -7,8 +7,10 @@
 
 .webstudio {
     color: var(--publick-text);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: xx-large;
+    font-family: "Raleway";
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 31px;
 }
 
 .studio {
