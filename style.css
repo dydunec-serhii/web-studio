@@ -7,18 +7,22 @@
 
 .webstudio {
     color: var(--publick-text);
-    font-family: "Raleway";
+    font-family: "Raleway", sans-serif;
     font-size: 26px;
-    font-weight: 700;
+    font-weight: 700 !important;
     line-height: 31px;
 }
 
 .studio {
     color: var(--logo);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: xx-large;
+    font-family: "Raleway", sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 31px;
 }
-
+.link-logo{
+    text-decoration: none;
+}
 .active {
     color: var(--publick-text);
 }
