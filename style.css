@@ -9,8 +9,25 @@
     color: var(--publick-text);
     font-family: "Raleway", sans-serif;
     font-size: 26px;
-    font-weight: 700 !important;
+    font-weight: 700;
     line-height: 31px;
+    margin: top 60px;
+    margin: bottom 20px;
+}
+
+.title-section {
+    margin: top 188px;
+    margin: bottom 50px;
+}
+
+.text-section {
+    margin: top 30px;
+    margin: bottom 10px;
+}
+
+.img-section {
+    margin: top 50px;
+    margin: bottom 30px;
 }
 
 .studio {
@@ -19,10 +36,19 @@
     font-size: 26px;
     font-weight: 700;
     line-height: 31px;
+    margin: top 60px;
+    margin: bottom 20px;
 }
-.link-logo{
+
+.main-listochok {
+    margin-top: 50px;
+    margin-bottom: 94px;
+}
+
+.link-logo {
     text-decoration: none;
 }
+
 .active {
     color: var(--publick-text);
 }
@@ -34,14 +60,26 @@
 
 .gmail {
     text-decoration: none;
+    margin-bottom: 32px;
+    margin-top: 32px;
 }
 
 .text {
     color: var(--all-text);
+    margin-bottom: 10px;
+}
+
+.sectoin-img {
+    margin-top: 94px;
+}
+
+.section-list {
+    margin-top: 94px;
 }
 
 .publick-text {
     color: var(--text-publick);
+    margin: bottom 30px;
 }
 
 .order-button {
@@ -53,6 +91,8 @@
 .tell:hover {
     color: var(--publick-text);
     text-decoration: none;
+    margin-bottom: 32px;
+    margin-top: 32px;
 }
 
 .tell {
@@ -61,24 +101,48 @@
 
 .header-link:hover {
     color: var(--publick-text);
+    margin: bottom 32px;
+    margin-top: 32px;
 }
 
+.logo-main {
+    background-color: #2F303A;
+
+}
+
+.text-footer {
+    margin: bottom 9px;
+}
+.gmail-footer{
+    margin-bottom: 9px;
+}
 .roboto-regular {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
-}
 
+}
+.tell-footer{
+    margin-bottom: 60px;
+}
 .roboto-medium {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-style: normal;
+    margin-bottom: 94px;
+    margin-top: 50px;
 }
 
 .roboto-bold {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-style: normal;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.sectio-title {
+    margin-bottom: 50px;
 }
 
 .roboto-black {
@@ -86,6 +150,15 @@
     font-weight: 900;
     font-style: normal;
     text-transform: uppercase;
+
+}
+
+.main-section {
+    background-color: #2F303A;
+    padding-top: 200px;
+    padding-bottom: 280px;
+    color: white;
+
 }
 
 .raleway {
