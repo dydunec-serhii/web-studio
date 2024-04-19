@@ -29,18 +29,23 @@
     margin: top 50px;
     margin: bottom 30px;
 }
-.container-header{
-   width: 1600px;
-}
-.sectio-container{
-    width:1600px;
-}
-.second-container{
-width: 1170px;
-}
-.third-container{
+
+.container-header {
     width: 1600px;
 }
+
+.sectio-container {
+    width: 1600px;
+}
+
+.second-container {
+    width: 1170px;
+}
+
+.third-container {
+    width: 1600px;
+}
+
 .studio {
     color: var(--logo);
     font-family: "Raleway", sans-serif;
@@ -124,18 +129,22 @@ width: 1170px;
 .text-footer {
     margin: bottom 9px;
 }
-.gmail-footer{
+
+.gmail-footer {
     margin-bottom: 9px;
 }
+
 .roboto-regular {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
 
 }
-.tell-footer{
+
+.tell-footer {
     margin-bottom: 60px;
 }
+
 .roboto-medium {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -171,6 +180,7 @@ width: 1170px;
     color: white;
 
 }
+
 .raleway {
     font-family: "Raleway" sans-serif;
     font-optical-sizing: auto;
