@@ -14,7 +14,9 @@
     margin: top 60px;
     margin: bottom 20px;
 }
-
+.header{
+    display: flex;
+}
 .title-section {
     margin: top 188px;
     margin: bottom 50px;
