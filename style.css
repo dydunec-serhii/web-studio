@@ -51,7 +51,10 @@
     margin-top: 50px;
     margin-bottom: 94px;
 }
-
+.footer-flex{
+    display: flex;
+    flex-wrap: nowrap;
+}
 .link-logo {
     text-decoration: none;
 }
@@ -59,7 +62,27 @@
 .active {
     color: var(--publick-text);
 }
-
+.flex-header{
+   display: flex;
+   
+}
+.main-flex{
+    display: flex;
+    
+}
+.img-flex{
+    display: flex;
+    word-wrap: normal;
+}
+.h2-flex{
+    display: flex;
+    justify-content: center;
+}
+.flex-main{
+    display: flex;
+    justify-content: center;
+   
+}
 .gmail:hover {
     color: var(--publick-text);
     text-decoration: none;
