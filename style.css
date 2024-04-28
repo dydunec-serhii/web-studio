@@ -30,6 +30,9 @@
 .img-section {
     margin: top 50px;
     margin: bottom 30px;
+    width: 270px;
+    justify-content: center;
+    
 }
 
 .container{
@@ -64,15 +67,20 @@
 }
 .flex-header{
    display: flex;
+   gap: 50px;
+    padding-left: 0px;
    
 }
 .main-flex{
     display: flex;
     
+    
 }
 .img-flex{
     display: flex;
     word-wrap: normal;
+    padding-left: 0px;
+    gap: 30px;
 }
 .h2-flex{
     display: flex;
@@ -228,6 +236,7 @@
 
 .main-list {
     list-style: none;
+    padding-left: 0px;
 }
 
 .footer-list {
