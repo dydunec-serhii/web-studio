@@ -141,6 +141,7 @@
     color: var(--publick-text);
     margin: bottom 32px;
     margin-top: 32px;
+    gap: 50px;
 }
 
 .logo-main {
