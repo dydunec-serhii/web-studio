@@ -65,6 +65,15 @@
 .active {
     color: var(--publick-text);
 }
+.flex-section{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.ul-flex{
+    display: flex;
+    justify-content: center;
+}
 .flex-header{
    display: flex;
    gap: 50px;
