@@ -101,12 +101,14 @@
 .flex-main{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
    
 }
 .gmail:hover {
     color: var(--publick-text);
     text-decoration: none;
     display: flex;
+    gap: 50px;
 }
 
 .gmail {
@@ -124,6 +126,7 @@
 
 .section-list {
     margin-top: 94px;
+    flex-wrap: wrap;
 }
 
 .publick-text {
