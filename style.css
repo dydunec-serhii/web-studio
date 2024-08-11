@@ -14,14 +14,25 @@
     margin: top 60px;
     margin: bottom 20px;
 }
-.header{
+
+.header {
     display: flex;
 }
+
 .title-section {
     margin: top 188px;
     margin: bottom 50px;
 }
 
+.kbd:hover {
+    transform: translate(-20px, 20px);
+    transition: all 0.5s ease-in-out;
+}
+.wrap {
+    display: inline-block;
+    margin: 0 40px 2em 0;
+    background: rgba(228, 225, 228, .5);
+}
 .text-section {
     margin: top 30px;
     margin: bottom 10px;
@@ -32,14 +43,15 @@
     margin: bottom 30px;
     width: 270px;
     justify-content: center;
-    
+
 }
 
-.container{
+.container {
     margin: 0 auto;
     width: 1170px;
     outline: 2px red solid;
 }
+
 .studio {
     color: var(--logo);
     font-family: "Raleway", sans-serif;
@@ -50,14 +62,16 @@
     margin: bottom 20px;
 }
 
-.main-listochok {
+.tochok {
     margin-top: 50px;
     margin-bottom: 94px;
 }
-.footer-flex{
+
+.footer-flex {
     display: flex;
     flex-wrap: nowrap;
 }
+
 .link-logo {
     text-decoration: none;
 }
@@ -65,39 +79,50 @@
 .active {
     color: var(--publick-text);
 }
-.flex-section{
+
+.flex-section {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
 }
-.header-flex{
+
+.header-flex {
     display: flex;
 }
-.ul-flex{
+
+.ul-flex {
     display: flex;
     justify-content: center;
 }
-.flex-header{
-   display: flex;
-   gap: 50px;
-    padding-left: 0px;
-   
-}
-.main-flex{
+
+.flex-header {
     display: flex;
-    
-    
+    gap: 50px;
+    padding-left: 0px;
+
 }
-.img-flex{
+
+.main-flex {
+    display: flex;
+
+
+}
+
+.img-flex {
     display: flex;
     word-wrap: normal;
     padding-left: 0px;
-    gap: 30px;
+    gap: 0px;
+
 }
-.h2-flex{
+.width{
+    width: 364px;
+}
+.h2-flex {
     display: flex;
     justify-content: center;
 }
+
 /* .flex-main{
     display: flex;
     justify-content: center;
@@ -171,9 +196,11 @@
 .gmail-footer {
     margin-bottom: 9px;
 }
-.gmail{
+
+.gmail {
     display: flex;
 }
+
 .roboto-regular {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
@@ -189,7 +216,7 @@
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-style: normal;
-   display: flex;
+    display: flex;
 }
 
 .roboto-bold {
@@ -217,7 +244,7 @@
     padding-top: 200px;
     padding-bottom: 280px;
     color: white;
-    background-image:url("Img.jpeg") ;
+    background-image: url("Img.jpeg");
     text-align: center;
 
 }
