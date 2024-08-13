@@ -49,9 +49,10 @@
 .container {
     margin: 0 auto;
     width: 1170px;
-    outline: 2px red solid;
 }
-
+.baground-footer{
+    background-color: #2F303A;
+}
 .studio {
     color: var(--logo);
     font-family: "Raleway", sans-serif;
