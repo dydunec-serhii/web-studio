@@ -45,7 +45,9 @@
     justify-content: center;
 
 }
-
+.baground-img:hover{
+background-color: #2196F3;
+}
 .container {
     margin: 0 auto;
     width: 1170px;
